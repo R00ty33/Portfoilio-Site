@@ -6,7 +6,7 @@ function Education() {
         <>
         <div id="Education" className="education"> 
             <h1 style={{marginTop: "50px"}}>Education</h1>
-            <div class="container" style={{textAlign: "left", marginTop: "50px"}}>
+            <div class="container" style={{textAlign: "left", marginTop: "50px", marginLeft: "20px", marginRight: "20px"}}>
                 <h2>University of South Florida</h2>
                 <h5>Bachelor of Science in Cybersecurity | GPA: 3.64</h5>
                 <h6>Relevant Coursework: &nbsp;&nbsp;Data Structures & Algorithms, Web Development, Advanced Databases, Object-Oriented Programming

@@ -5,7 +5,7 @@ function Experience() {
         <>
             <div id="Experience" className="experience"> 
                 <h1 style={{marginTop: "50px"}}>Experience</h1>
-                <div class="container" style={{marginTop: "50px"}}> 
+                <div class="container" style={{marginTop: "50px", marginLeft: "20px", marginRight: "20px"}}> 
                 <h2>Resilience, Inc. SEL</h2>
                 <h4>Software Engineer</h4>
                 <h6>Developed an android application with AI integration to aid students in social emotional learning.

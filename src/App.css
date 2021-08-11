@@ -91,9 +91,12 @@ body {
   border-left: 0px;
   padding: 5px;
   border-radius: 5px;
-  min-width: 270px;
+  min-width: 200px;
+  width: auto;
   max-width: 1200px auto;
   display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   text-align: left;
 }
 
