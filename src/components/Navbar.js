@@ -93,14 +93,14 @@ function Navbar() {
       return (
         <div>
           <ul className='bottomBar' id='Bar'>
-            <li><Link activeClass="active" to="Home" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0} ignoreCancelEvents={true}>Home</Link></li>
-            <li><Link to="About" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>About</Link></li>
-            <li><Link to="Skills" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>Skills</Link></li>
-            <li><Link to="Projects" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0} ignoreCancelEvents={true}>Projects</Link></li>
-            <li><Link to="Education" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>Education</Link></li>
-            <li><Link to="Experience" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>Experience</Link></li>
-            <li><Link to="Contact" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>Contact</Link></li>
-            <button className='btn' onClick={onResumeClick}>Resume</button>
+              <li><Link activeClass="active" to="Home" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0} ignoreCancelEvents={true}>Home</Link></li>
+              <li><Link to="About" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>About</Link></li>
+              <li><Link to="Skills" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>Skills</Link></li>
+              <li><Link to="Projects" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0} ignoreCancelEvents={true}>Projects</Link></li>
+              <li><Link to="Education" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>Education</Link></li>
+              <li><Link to="Experience" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>Experience</Link></li>
+              <li><Link to="Contact" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>Contact</Link></li>
+              <button className='btn' onClick={onResumeClick}>Resume</button>
           </ul>
         </div>
       )
