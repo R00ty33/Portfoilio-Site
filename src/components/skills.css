@@ -1,0 +1,101 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 200px) {
+
+}
+
+@media (min-width: 400px) {
+
+}
+
+@media (min-width: 544px) {
+
+}
+
+@media (min-width: 780px) {  
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {  
+
+}
+
+.skills {
+    height: auto;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    color: #d9d9d9;
+    text-align: center;
+}
+
+.skills-span {
+    cursor:pointer;
+    color:blue;
+}
+
+.skills span:hover {
+    text-decoration:none;
+    text-shadow: 1px 1px 1px #555;
+}
+
+
+.skills .container {
+    width: auto;
+    border: 1px solid steelblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    width: auto;
+}
+
+.skills-Parent {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 150px);
+}
+
+.skills-img {
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 5px #333 solid;
+    padding: 0px;
+    width: 260px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.my-masonry-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    margin-left: -30px;
+}
+
+.my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+    width: auto;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.my-masonry-grid_column div {
+    margin-bottom: 40px;
+}
+
+.skill h1 {
+    color: #FFBB98;
+}

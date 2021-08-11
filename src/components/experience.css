@@ -1,0 +1,25 @@
+.experience {
+    height: 1080px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-color: #595959;
+    color: #d9d9d9;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.experience h2 {
+    color: #FFBB98;
+}
+
+
+.experience .container {
+    border: 1px solid #FFBB98;
+    border-top: 0px;
+    border-left: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: auto;
+    text-align: left;
+}

@@ -1,0 +1,23 @@
+.education {
+    height: 1080px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    color: #d9d9d9;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.education h2 {
+    color: #FFBB98;
+}
+
+.education .container {
+    border: 1px solid #FFBB98;
+    border-top: 0px;
+    border-left: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: auto;
+}

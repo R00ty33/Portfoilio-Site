@@ -1,0 +1,160 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 200px) {
+
+}
+
+@media (min-width: 400px) {
+
+}
+
+@media (min-width: 544px) {
+
+}
+
+@media (min-width: 780px) {  
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {  
+
+}
+
+.btn {
+    display: inline-block;
+    background: #555;
+    color: #FFBB98;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    outline-color: none;
+}
+
+.bottomBar {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #333;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    font-size: 14px;
+}
+  
+.stickyBar {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    top: 0;
+    height: 50px;
+    font-size: 14px;
+}
+
+
+.mobileBottomBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    position: absolute;
+    display: block;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.mobileStickyBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    position: fixed;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.hamburgerStickyDropDownMenu {
+    list-style-type: none;
+    padding: 0px;
+    display: grid;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #333;
+    margin: auto;
+    height: 500px;
+    color: #d9d9d9;
+    border-radius: 10px;
+    font-size: 22px auto;
+    font-style: inherit;
+}
+
+.hamburgerBottomDropDownMenu {
+    list-style-type: none;
+    padding: 0px;
+    display: grid;
+    text-align: center;
+    bottom: -450px;
+    width: 100%;
+    position: absolute;
+    background-color: #333;
+    margin: auto;
+    height: 500px;
+    color: #d9d9d9;
+    border-radius: 10px;
+    font-size: 22px auto;
+    font-style: inherit;
+}
+
+  
+ul.hamburgerDropDown {
+    padding: 10px;
+}
+
+ul a:hover {
+    color: #ffccb3 !important;
+    text-shadow: 1px 1px 1px #555;
+    cursor: pointer;
+}
+
+li {
+    display: inline-block;
+    color: #d9d9d9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  
+li a:hover {
+    color: #ffccb3 !important;
+    text-shadow: 1px 1px 1px #555;
+    cursor: pointer;
+}
+    
+.active {
+    color: #FFBB98;
+}

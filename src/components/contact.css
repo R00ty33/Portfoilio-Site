@@ -1,0 +1,73 @@
+@media (min-width: 0px) {
+    .contact button {
+        min-width: 340px;
+        max-width: 340px;
+        width: 340px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 470px) {
+    .contact button {
+        min-width: 450px;
+        max-width: 450px;
+        width: 450px;
+        font-size: 22px;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact {
+    height: 1460px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    color: #d9d9d9;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contact .container {
+    max-width: 500px;
+    margin: 30px auto;
+    min-height: 300px;
+    border: 1px solid skyblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.contact button {
+    text-decoration: none;
+    font-size: 22px auto;
+    border: none;
+    background-color: #d9d9d9;
+    text-align: center;
+    min-width: 0px auto;
+    max-width: 0px auto;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-color: #d9d9d9;
+    border: 2px solid #d9d9d9;
+}
+
+.contact button:hover {
+    background-color: #FFBB98;
+}
+
+.left {
+    text-align: left;
+    float: left;
+    margin-left: 5px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}

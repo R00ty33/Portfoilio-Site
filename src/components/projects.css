@@ -1,0 +1,420 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+@media (min-width: 0px) {
+    .project .my-masonry-grid_column > div {
+        height: 550px;
+        margin-bottom: 0px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .project-img {
+        width: 300px;
+        height: 350px;
+    }
+
+    .project-img:hover {
+        width: 315px;
+        height: 375px;
+    }
+
+    .project-imgSmall {
+        width: 135px;
+        height: 300px;
+    }
+
+    .project-imgSmall:hover {
+        width: 150px;
+        height: 350px;
+    }
+    .project .my-masonry-grid_column {
+        font-size: 13px;
+        margin-bottom: 400px;
+    }
+}
+
+@media (min-width: 400px) {
+    .project .my-masonry-grid_column > div {
+        height: 500px;
+        margin-bottom: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .project-img {
+        width: 300px;
+        height: 390px;
+    }
+
+    .project-img:hover {
+        width: 330px;
+        height: 400px;
+    }
+
+    .project-imgSmall {
+        width: 150px;
+        height: 400px;
+    }
+
+    .project-imgSmall:hover {
+        width: 180px;
+        height: 420px;
+    }
+    .project .my-masonry-grid_column {
+        font-size: 13px;
+        margin-bottom: 400px;
+    }
+}
+
+@media (min-width: 544px) {
+    .project .my-masonry-grid_column > div {
+        height: 425px;
+        margin-bottom: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .project-img {
+        width: 450px;
+        height: 400px;
+    }
+
+    .project-img:hover {
+        width: 480px;
+        height: 430px;
+    }
+
+    .project-imgSmall {
+        width: 200px;
+        height: 400px;
+    }
+
+    .project-imgSmall:hover {
+        width: 230px;
+        height: 430px;
+    }
+    .project .my-masonry-grid_column {
+        font-size: 13px;
+        margin-bottom: 400px;
+    }
+    .project .my-masonry-grid_column > div.last {
+        height: 500px;
+        margin-bottom: 100px;
+    }
+}
+
+
+@media (min-width: 700px) {
+    .project .my-masonry-grid_column > div {
+        height: 400px;
+        margin-bottom: 100px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .project-img {
+        width: 600px;
+        height: 400px;
+    }
+
+    .project-img:hover {
+        width: 630px;
+        height: 430px;
+    }
+
+    .project-imgSmall {
+        width: 250px;
+        height: 400px;
+    }
+
+    .project-imgSmall:hover {
+        width: 280px;
+        height: 430px;
+    }
+    .project .my-masonry-grid_column {
+        font-size: 13px;
+        margin-bottom: 400px;
+    }
+    .project .my-masonry-grid_column > div.last {
+        height: 500px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 801px) {  
+    .project .my-masonry-grid_column > div.left {
+        margin-left: 25px;
+    }
+    
+    .project .my-masonry-grid_column > div.right {
+        margin-left: 0px;
+        margin-right: 25px;
+    }
+
+    .project .my-masonry-grid_column > div {
+        height: 320px;
+        margin-bottom: 300px;
+        margin-left: 20px auto;
+    }
+
+    .project-img {
+        width: 340px;
+        height: 340px;
+    }
+
+    .project-img:hover {
+        width: 370px;
+        height: 370px;
+    }
+
+    .project-imgSmall {
+        width: 150px;
+        height: 300px;
+    }
+
+    .project-imgSmall:hover {
+        width: 180px;
+        height: 330px;
+    }
+    .project .my-masonry-grid_column {
+        font-size: 13px;
+        margin-bottom: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .project .my-masonry-grid_column > div.left {
+        margin-left: 50px;
+    }
+    
+    .project .my-masonry-grid_column > div.right {
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+
+    .project .my-masonry-grid_column > div {
+        height: 200px;
+        margin-bottom: 400px;
+        margin-left: 20px auto;
+    }
+
+    .project-img {
+        width: 430px;
+        height: 350px;
+    }
+
+    .project-img:hover {
+        width: 450px;
+        height: 380px;
+    }
+
+    .project-imgSmall {
+        width: 170px;
+        height: 390px;
+    }
+
+    .project-imgSmall:hover {
+        width: 200px;
+        height: 420px;
+    }
+    .project .my-masonry-grid_column {
+        font-size: 14px;
+        margin-bottom: 400px;
+    }
+}
+
+@media (min-width: 1200px) {  
+    .project .my-masonry-grid_column > div.left {
+        margin-left: 100px;
+    }
+    
+    .project .my-masonry-grid_column > div.right {
+        margin-left: 0px;
+        margin-right: 100px;
+    }
+
+    .project .my-masonry-grid_column > div {
+        height: 200px;
+        margin-bottom: 500px;
+        margin-left: 20px auto;
+    }
+
+    .project-img {
+        width: 470px;
+        height: 400px;
+    }
+
+    .project-img:hover {
+        width: 490px;
+        height: 430px;
+    }
+
+    .project-imgSmall {
+        width: 200px;
+        height: 400px;
+    }
+
+    .project-imgSmall:hover {
+        width: 220px;
+        height: 420px;
+    }
+    .project .my-masonry-grid_column {
+        font-size: 16px;
+        margin-bottom: 400px;
+    }
+}
+
+@media (min-width: 2400px) {  
+    .project .my-masonry-grid_column > div.left {
+        margin-left: 400px;
+    }
+    
+    .project .my-masonry-grid_column > div.right {
+        margin-left: 0px;
+        margin-right: 400px;
+    }
+
+    .project .my-masonry-grid_column > div {
+        height: 300px;
+        margin-bottom: 300px;
+        margin-left: 20px auto;
+    }
+
+    .project-img {
+        width: 800px;
+        height: 500px;
+    }
+
+    .project-img:hover {
+        width: 830px;
+        height: 530px;
+    }
+
+    .project-imgSmall {
+        width: 350px;
+        height: 500px;
+    }
+
+    .project-imgSmall:hover {
+        width: 375px;
+        height: 550px;
+    }
+    .project .my-masonry-grid_column {
+        font-size: 20px;
+        margin-bottom: 400px;
+    }
+}
+
+
+
+.project-container {
+    max-width: 500px;
+    margin: 30px auto;
+    min-height: 300px;
+    border: 1px solid skyblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.project-img {
+    width: 600px auto;
+    height: 300px auto;
+    border: 1px solid skyblue;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #FFBB98,
+                -6px -6px 6px black;
+}
+
+.project-imgSmall {
+    width: 300px auto;
+    height: 450px auto;
+    border: 1px solid skyblue;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #FFBB98,
+                -6px -6px 6px black;
+}
+
+.project-right {
+    text-align: right;
+    float: right;
+}
+
+.project-img:hover {
+    width: 615px auto;
+    height: 315px auto;
+    box-shadow: -8px -8px 35px 2px #FFBB98,
+                8px 8px 35px 2px black;
+}
+
+.project-imgSmall:hover {
+    width: 325px auto;
+    height: 465px auto;
+    box-shadow: -8px -8px 35px 2px #FFBB98,
+                8px 8px 35px 2px black;
+}
+
+.project {
+    height: auto;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-color: #595959;
+    color: #d9d9d9;
+    overflow: auto;
+    display: block;
+    text-align: center;
+}
+
+.project ul {
+    color: #d9d9d9;
+    list-style-type: circle;
+}
+
+.project li {
+    color: #d9d9d9;
+    text-align: left;
+    list-style-type: circle;
+}
+
+.my-masonry-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    margin-left: -30px;
+}
+
+.my-masonry-grid_column {
+    padding-left: 0px; /* gutter size */
+    background-clip: padding-box;
+    width: auto;
+    text-align: left;
+    margin-left: 0px auto;
+    margin-right: 0px;
+    font-size: 12px auto;
+}
+
+.project .my-masonry-grid_column > div {
+    height: 0px auto;
+    margin-left: 0px auto;
+}
+
+.project .my-masonry-grid_column > div.left {
+    margin-left: 20px auto;
+}
+
+.project .my-masonry-grid_column > div.right {
+    margin-left: 0px auto;
+    margin-right: 20px auto;
+}
+
+.project .my-masonry-grid_column > div.last {
+    height: 0px;
+}
+
+.project h2 {
+    color: #FFBB98;
+}

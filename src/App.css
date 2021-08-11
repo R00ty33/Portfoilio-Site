@@ -1,0 +1,125 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 0px) {
+  h1 {font-size: 2.2rem;}
+  h2 {
+      font-size: 0.8rem;
+  }
+  p {
+      font-size: 13px;
+  }
+  .gridInLine img{
+      margin-left: 0px;
+  }
+}
+
+@media (min-width: 400px) {
+  h1 {font-size: 3.5rem;}
+  h2 {font-size: 1.25rem;}
+  p {
+      font-size: 13px;
+  }
+}
+
+@media (min-width: 544px) {
+  h1 {font-size: 3.rem;}
+  h2 {font-size: 1.5rem;}
+  p {
+      font-size: 13px;
+  }
+}
+
+@media (min-width: 700px) {  
+  h1 {font-size: 4rem;}
+  h2 {font-size: 1.8rem;}
+  p {
+      font-size: 13px;
+  }
+}
+
+@media (min-width: 780px) {  
+  h1 {font-size: 4rem;}
+  h2 {font-size: 1.8rem;}
+  p {
+      font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {font-size: 4.25rem;}
+  h2 {font-size: 2.25rem;}
+  p {
+      font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {  
+  h1 {font-size: 4.5rem;}
+  h2 {font-size: 2.5rem;}
+  p {
+      font-size: 18px;
+  }
+}
+
+.App {
+  text-align: center;
+} 
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+    padding: auto;
+    height: 100vh;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+  border: 1px solid #FFBB98;
+  border-top: 0px;
+  border-left: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  min-width: 270px;
+  max-width: 1200px auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-blocked {
+  display: block;
+  width: 100;
+}
