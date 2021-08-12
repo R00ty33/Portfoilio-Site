@@ -25,8 +25,8 @@ function Navbar() {
       }
       if (windowWidth < 780 && winScroll < windowHeight) {
         if (isOpen) {
-          render = getBottomDropDownMenu()
-          return render
+            render = getBottomDropDownMenu()
+            return render
         }
         else {
           render = getMobileBottomBar()
@@ -82,7 +82,7 @@ function Navbar() {
     }, [windowHeight])
 
     function cancelMenu() {
-      setOpen(false)
+      setOpen(false) 
     }
 
     function onResumeClick() {
@@ -127,7 +127,7 @@ function Navbar() {
       return (
         <div className="mobileStickyBar">
           <button className='btn' style={{float:"right"}} onClick={onResumeClick}>Resume</button>
-          <Hamburger toggled={isOpen} toggle={setOpen} easing="ease-in" duration={0.5} color="white"/>
+          <Hamburger toggled={isOpen} toggle={setOpen} easing="ease-in" duration={0.5} color="#FFBB98"/>
         </div>
       )
     }
@@ -137,7 +137,7 @@ function Navbar() {
       return (
         <div className="mobileBottomBar">
           <button className='btn' style={{float:"right"}} onClick={onResumeClick}>Resume</button>
-          <Hamburger toggled={isOpen} toggle={setOpen} easing="ease-in" duration={0.5} color="white"/>
+          <Hamburger toggled={isOpen} toggle={setOpen} easing="ease-in" duration={0.5} color="#FFBB98"/>
         </div>
       )
     }
@@ -145,7 +145,7 @@ function Navbar() {
     function getStickyDropDownMenu() {
       return (
         <div className="hamburgerStickyDropDownMenu">
-          <Hamburger toggled={isOpen} toggle={setOpen} easing="ease-in" duration={0.5} color="white"/>
+          <Hamburger toggled={isOpen} toggle={setOpen} easing="ease-in" duration={0.5} color="#FFBB98"/>
             <li><Link onClick={cancelMenu} activeClass="active" to="Home" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0} ignoreCancelEvents={true}>Home</Link></li>
             <li><Link to="About" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>About</Link></li>
             <li><Link onClick={cancelMenu} to="Skills" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>Skills</Link></li>
@@ -160,7 +160,7 @@ function Navbar() {
     function getBottomDropDownMenu() {
       return (
         <div className="hamburgerBottomDropDownMenu">
-          <Hamburger toggled={isOpen} toggle={setOpen} easing="ease-in" duration={0.5} color="white"/>
+          <Hamburger toggled={isOpen} toggle={setOpen} easing="ease-in" duration={0.5} color="#FFBB98"/>
             <li><Link onClick={cancelMenu} activeClass="active" to="Home" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0} ignoreCancelEvents={true}>Home</Link></li>
             <li><Link to="About" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>About</Link></li>
             <li><Link onClick={cancelMenu} to="Skills" spy={true} hashSpy={true} smooth={true} offset={-25} duration={250} delay={0}ignoreCancelEvents={true}>Skills</Link></li>

@@ -12,8 +12,6 @@
     }
     .hr {   
         max-width: 220px; 
-        border-top: 0.2px solid whitesmoke !important;
-        border-bottom: 0.2px solid whitesmoke !important;
     }
 }
 
@@ -59,8 +57,8 @@
 
 .hr {
     height: 0px;
-    border-top: 2px solid #d9d9d9;
-    border-bottom: 2px solid #d9d9d9;
+    border-top: 0.25px solid #FFBB98;
+    border-bottom: 0.25px solid #FFBB98;
     margin-right: auto;
     margin-left: auto;
     max-width: 500px auto;
@@ -69,13 +67,13 @@
 }
 
 .home-title h1 {
-    color: #d9d9d9;
+    color: #FFBB98;
     font-family: 'Poppins', sans-serif;
 }
 
 .home-title h2 {   
     padding: 20px;
-    color: #d9d9d9;
+    color: #FFBB98;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -83,11 +81,12 @@
 .home-bg {
     margin: auto;
     padding: auto;
-    height: 97vh !important;
+    height: 99vh;
+    overflow: hidden;
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.85;
-    background-image: url("https://i.imgur.com/9ZAgc2n.jpeg");
-    filter: blur(0.35px);
+    background-color: #4d4d4d;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23d9d9d9' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23ffbb98' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23b5b5b5' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23f9c1a5' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23929292' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23f2c7b2' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23707070' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ebcdbf' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23515151' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23e2d3cc' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23333333' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23d9d9d9' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
 }

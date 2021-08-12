@@ -19,7 +19,7 @@ function Skills() {
         <>
         <div id="Skills" className="skills"> 
             <h1 style={{display: "inline-block", marginTop: "50px"}}>Skills</h1>
-            <p style={{marginTop: "20px", textAlign: "left", marginLeft: "40px", marginRight: "40px"}}>I am proficient in five programming languages and have used them to implemenet algorithms,
+            <p style={{textAlign: "center", marginTop: "20px", marginLeft: "40px", marginRight: "40px", marginBottom: "40px"}}>I am proficient in five programming languages and have used them to implemenet algorithms,
             data structures, and to develop applications. I have also used various API's and frameworks to enhance my applications.</p>
             <Masonry
                 breakpointCols={breakpointColumnsObj}

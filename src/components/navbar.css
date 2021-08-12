@@ -33,12 +33,24 @@
     border: none;
     padding: 10px 20px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 7.5px;
     cursor: pointer;
     text-decoration: none;
     font-size: 15px;
     font-family: inherit;
     outline-color: none;
+    outline: none !important;
+}
+
+.btn:hover {
+    background: #FFBB98;
+    color: black;
+}
+
+.btn.focus, .btn:focus, .btn:active {
+    outline: 0 !important;
+    box-shadow: none!important;
+    border: 0 !important;
 }
 
 .bottomBar {
@@ -81,6 +93,7 @@
     bottom: 0;
     width: 100%;
     height: 50px;
+    border-radius: 0px;
 }
 
 .mobileStickyBar {
@@ -93,6 +106,7 @@
     top: 0;
     width: 100%;
     height: 50px;
+    border-radius: 0px;
 }
 
 .hamburgerStickyDropDownMenu {
@@ -107,7 +121,7 @@
     margin: auto;
     height: 500px;
     color: #d9d9d9;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 22px auto;
     font-style: inherit;
 }
@@ -124,7 +138,7 @@
     margin: auto;
     height: 500px;
     color: #d9d9d9;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 22px auto;
     font-style: inherit;
 }
